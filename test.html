@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination customer</title>
+    <link rel="stylesheet" href="./pagination.css">
+</head>
+
+<body>
+    <script src="./pagination.js"></script>
+    <script>
+        let page = new Pagination({
+            config: {
+                total: 40,
+                totalPage: 0,
+                pageSize: 10,
+                rooId: 'page1',
+                currentPage: 1,
+                showSizeChanger: true,
+                showLessItems: true,
+                showQuickJumper: true,
+                paginationContainer: '',
+                paginationClass: ''
+            }
+
+        })
+
+        let pag2 = new Pagination({
+            config: {
+                total: 200,
+                totalPage: 0,
+                pageSize: 10,
+                rooId: 'page2',
+                currentPage: 1,
+                showSizeChanger: true,
+                showLessItems: true,
+                showQuickJumper: true,
+                paginationContainer: '',
+                paginationClass: ''
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>

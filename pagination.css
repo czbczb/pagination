@@ -1,0 +1,78 @@
+.disabled {
+    cursor: "disable";
+    color: #ccc;
+}
+
+.paginationWrapper {
+    padding: 5px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.pageDescription {
+    float: left;
+    min-width: 250px;
+}
+
+.paginationWrapper span.page {
+    cursor: pointer;
+    float: left;
+}
+
+.pageNumberWrapper {
+    float: left;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.defaultPage {
+    float: left;
+    margin: 5px;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.defaultPage.currentPage,
+.firstPage:hover,
+.endPage:hover,
+.nextPage:hover,
+.prevPage:hover,
+.defaultPage:hover {
+    background-color: #409eff;
+    color: #fff;
+}
+
+.paginationInputWrapper {
+    float: left;
+}
+
+.paginationInput {
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    outline: none;
+    line-height: 26px;
+    width: 50px;
+}
+
+.firstPage,
+.endPage {
+    border: 1px solid #ccc;
+    line-height: 30px;
+    margin: 5px;
+    padding: 0 10px;
+}
+
+.nextPage,
+.prevPage {
+    border: 1px solid #ccc;
+    line-height: 30px;
+    margin: 5px;
+    padding: 0 10px;
+}
